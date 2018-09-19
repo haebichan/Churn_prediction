@@ -61,10 +61,27 @@ user_lifespan and user_rated_driver were created.
 # 2. Modeling
 The Three models run were:
 
-### Random Forest
-### Gradient Boosting
-### Adaboost
+##### Random Forest
+##### Gradient Boosting
+##### Adaboost
 
 For each model, a Cross-Validation with Grid Search to optimize hyperparameters was conducted. The metric used to compare performance was the Area Under the Curve for the Reiceiver-Operator Curve (AUC/ROC), which portrays the tradeoff between true positive rate (TPR) and false positive rate (FPR) for Classification Models.
 
+# 3. Results
 
+## Random Forest:
+Precision score 0.8054254007398274
+Recall score 0.8627658169330339
+Accuracy score 0.7819166666666667
+
+## Gradient Boosting:
+
+Precision score 0.7944064266587325
+Recall score 0.8574181117533719
+Accuracy score 0.773
+
+## Adaboost:
+
+Precision score 0.7944064266587325
+Recall score 0.848113136932
+Accuracy score 0.751
