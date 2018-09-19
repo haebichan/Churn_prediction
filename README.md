@@ -71,17 +71,23 @@ For each model, a Cross-Validation with Grid Search to optimize hyperparameters 
 
 ## Random Forest:
 Precision score 0.8054254007398274
+
 Recall score 0.8627658169330339
+
 Accuracy score 0.7819166666666667
 
 ## Gradient Boosting:
 
 Precision score 0.7944064266587325
+
 Recall score 0.8574181117533719
+
 Accuracy score 0.773
 
 ## Adaboost:
 
 Precision score 0.7944064266587325
+
 Recall score 0.848113136932
+
 Accuracy score 0.751
